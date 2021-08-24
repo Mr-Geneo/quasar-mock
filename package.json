@@ -1,0 +1,35 @@
+{
+  "name": "quasar-app-extension-mock",
+  "version": "1.0.0",
+  "description": "A Quasar App Extension",
+  "author": "wanggenyou <wanggenyou@jiaosjiao.com>",
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mr-Geneo/quasar-mock"
+  },
+  "bugs": "https://github.com/Mr-Geneo/quasar-mock/issues",
+  "homepage": "https://wwww.quasar-x.com/mock",
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
+    "@typescript-eslint/parser": "^4.29.3",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0"
+  },
+  "dependencies": {
+    "chokidar": "^3.5.2",
+    "fast-glob": "^3.2.7",
+    "mockjs": "^1.1.0",
+    "path-to-regexp": "^6.2.0",
+    "rimraf": "^3.0.2"
+  }
+}
