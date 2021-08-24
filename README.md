@@ -1,4 +1,4 @@
-# Quasar App Extension mock
+# Quasar App Extension
 
 Intercept the simulated Axios request to complete the local API debugging function
 
