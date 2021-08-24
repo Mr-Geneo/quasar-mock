@@ -1,10 +1,8 @@
 # Quasar App Extension mock
 
-_Be sure to change this readme as appropriate for your app extension._
+Intercept the simulated Axios request to complete the local API debugging function
 
-_Think about the organization of this file and how the information will be beneficial to the user._
-
-> Add a short description of your App Extension. What does it do? How is it beneficial? Why would someone want to use it?
+> It seems very useful when developing front-end and back-end separation, using mockjs syntax to intercept requests
 
 A Quasar App Extension
 
@@ -18,7 +16,7 @@ Quasar CLI will retrieve it from the NPM registry and install the extension to y
 
 ## Prompts
 
-> Explain the prompts here
+> Asks whether to initialize the default instance of impersonation requests
 
 # Uninstall
 
@@ -28,7 +26,7 @@ quasar ext remove mock
 
 # Info
 
-> Add longer information here that will help the user of your app extension.
+> This extension uses middleware to simulate Axios requests
 
 # Other Info
 
