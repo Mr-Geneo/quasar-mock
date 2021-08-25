@@ -23,7 +23,6 @@ async function createMockServer(opt = { mockPath: 'mock' }) {
   createWatch(opt)
 }
 
-// request match
 async function requestMiddleware(opt) {
   const { logger = true } = opt
   const middleware = async (req, res, next) => {
@@ -105,9 +104,9 @@ function createWatch(opt) {
     ignoreInitial: true,
   })
 
-  watcher.on('all', (event, file) => {
+  watcher.on('all', async (event, file) => {
     logger && loggerOutput(`mock file ${event}`, file)
-    mockData = getMockConfig(opt)
+    mockData = await getMockConfig(opt)
   })
 }
 
@@ -209,7 +208,6 @@ function loggerOutput(title, msg, type) {
 }
 
 module.exports = {
-  mockData,
   createMockServer,
   requestMiddleware,
 }

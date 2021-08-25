@@ -4,8 +4,6 @@ Intercept the simulated Axios request to complete the local API debugging functi
 
 > It seems very useful when developing front-end and back-end separation, using mockjs syntax to intercept requests
 
-A Quasar App Extension
-
 # Install
 
 ```bash
@@ -27,10 +25,6 @@ quasar ext remove mock
 # Info
 
 > This extension uses middleware to simulate Axios requests
-
-# Other Info
-
-> Add other information that's not as important to know
 
 # Donate
 
